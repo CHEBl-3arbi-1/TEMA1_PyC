@@ -11,7 +11,7 @@ print("=== Registro de un movimiento ===")
 
 concepto = input("Concepto del movimiento")
 importe_bruto = float(input("Importe bruto (EUR): "))
-
+##aplica_descuento = input("¿Aplica descuento? (s/n)").lower() == "s"
 
 importe_iva = importe_bruto * IVA
 importe_total = importe_bruto + importe_iva
